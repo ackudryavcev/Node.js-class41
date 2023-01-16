@@ -1,0 +1,14 @@
+{
+  "name": "leftpad",
+  "version": "1.0.0",
+  "description": "2 left pad",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Aleksei Kudriavtcev",
+  "license": "ISC",
+  "dependencies": {
+    "left-pad": "^1.3.0"
+  }
+}

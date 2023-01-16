@@ -1,4 +1,3 @@
-
 /**
  ** Exercise 1: Pad numbers 
  * 
@@ -16,6 +15,10 @@
  *   where to use `exports` and where `require`?
  */
 
-let numbers = [ "12", "846", "2", "1236" ];
+const padLeft = require("./padLeft.js");
 
-// YOUR CODE GOES HERE
+let numbers = ["12", "846", "2", "1236"];
+
+numbers.forEach(element => {
+    console.log(padLeft.padLeft(element, 5, "_"));
+});

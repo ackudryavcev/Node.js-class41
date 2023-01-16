@@ -1,14 +1,18 @@
 {
-  "name": "step2-npm",
-  "version": "1.0.0",
-  "description": "1. execute `npm init`",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "author": "Andrej Gajduk",
-  "license": "ISC",
-  "dependencies": {
-    "express": "^4.17.1"
-  }
+    "name": "homework",
+    "version": "1.0.0",
+    "description": "this is HYF Homework module NodeJS",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "y"
+    },
+    "author": "Aleksei Kudriavtcev",
+    "license": "ISC",
+    "dependencies": {
+        "express": "^4.18.2"
+    }
 }
