@@ -15,7 +15,7 @@ describe('Weather API', () => {
         const response = await request(app)
             .post('/weather')
             .send({ cityName: 'InvalidCity' });
-        expect(response.status).toBe(400);
+        expect(response.status).toBe(404);
         expect(response.body).toHaveProperty('weatherText', 'City is not found!');
     });
 });
